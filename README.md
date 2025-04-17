@@ -1,6 +1,4 @@
 
-## Hi, I'm Vasyl Kuzma | Frontend Developer | React • TypeScript • Node.js 👋
-
 ## 👋 Hi, I'm Vasyl Kuzma
 
 I'm a Frontend Developer passionate about building clean, responsive, and user-friendly web interfaces.  
