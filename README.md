@@ -54,13 +54,30 @@ Currently looking for my first job in IT to grow in a real-world environment.
 
 #### 💇‍♀️ [TaisiyaStyle – Personal Stylist Portfolio](https://taisiyastyle.vercel.app/)
 
-A modern and responsive site for a professional hairdresser. Includes:
 
-- Service list with filtering
-- Booking form with email integration
-- About section, testimonials, responsive layout
+A modern and responsive site for a professional hairdresser, combining a sleek front-end with a robust back-end. The website includes:
 
-> 🛠 Built with React, React Router, CSS Modules, Yup, and Tailwind
+ - Service List with Filtering: An organized list of services with the ability to filter by categories (e.g., haircuts, color treatments, etc.)
+
+ - Booking Form with Email Integration: Users can easily book appointments, with form submissions sent via email for seamless communication.
+
+ - About Section, Testimonials, and Responsive Layout: A personalized "About" section, customer reviews, and a layout optimized for all devices.
+
+ - Backend Functionality: A custom backend handling booking requests, feedback submissions, and email notifications. Powered by Node.js and MongoDB for data storage and management.
+
+> 🛠 React for efficient UI rendering
+
+ - React Router for seamless navigation
+
+ - CSS Modules for modular and reusable styles
+
+ - Yup for form validation
+
+ - Tailwind CSS for flexible, utility-first design
+
+ - Node.js and MongoDB for backend functionality
+
+ - Email Integration for booking confirmations and feedback notifications
 
 ---
 
@@ -81,13 +98,6 @@ A modern and responsive site for a professional hairdresser. Includes:
 
 ---
 
-### 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kuzmavasil74&theme=tokyo-night&hide_border=true" />
-</p>
-
----
 
 ### 🧠 Currently Learning
 
