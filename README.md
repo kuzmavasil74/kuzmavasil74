@@ -23,16 +23,18 @@
 
 ### 👨‍💻 About Me
 
-Hi, I’m **Vasyl Kuzma**, a Junior Frontend Developer from Prague 🇨🇿, passionate about creating clean and interactive user interfaces. I have hands-on experience building small full-stack projects using:
+Hi, I’m Vasyl Kuzma, a Junior Frontend Developer from Prague 🇨🇿, passionate about creating clean and interactive user interfaces. I have hands-on experience building small full-stack projects using:
 
-- **React**, **TypeScript**, **CSS Modules**, **Tailwind**
-- Basic backend using **Node.js**, **Express**, and **MongoDB**
-- Form validation with **Yup**, **React Hook Form**
-- Working knowledge of REST APIs, JSON, Git, Webpack, and ESLint
+React, TypeScript, CSS Modules, Tailwind
 
-I love to learn by building and constantly improve my coding skills.  
+Basic backend using Node.js, Express, and MongoDB
+
+Form validation with Yup, React Hook Form
+
+Working knowledge of REST APIs, JSON, Git, Webpack, and ESLint
+
+I love to learn by building and constantly improve my coding skills.
 Currently looking for my first job in IT to grow in a real-world environment.
-
 ---
 
 ### 🔧 Tech Stack & Tools
@@ -57,27 +59,20 @@ Currently looking for my first job in IT to grow in a real-world environment.
 
 A modern and responsive site for a professional hairdresser, combining a sleek front-end with a robust back-end. The website includes:
 
- - Service List with Filtering: An organized list of services with the ability to filter by categories (e.g., haircuts, color treatments, etc.)
+- Service List with Filtering: An organized list of services with the ability to filter by categories (e.g., haircuts, color treatments, etc.)
+- Booking Form with Email Integration: Users can easily book appointments, with form submissions sent via email for seamless communication.
+- About Section, Testimonials, and Responsive Layout: A personalized "About" section, customer reviews, and a layout optimized for all devices.
+- Backend Functionality: A custom backend handling booking requests, feedback submissions, and email notifications. Powered by Node.js and MongoDB for data storage and management.
 
- - Booking Form with Email Integration: Users can easily book appointments, with form submissions sent via email for seamless communication.
-
- - About Section, Testimonials, and Responsive Layout: A personalized "About" section, customer reviews, and a layout optimized for all devices.
-
- - Backend Functionality: A custom backend handling booking requests, feedback submissions, and email notifications. Powered by Node.js and MongoDB for data storage and management.
-
-> 🛠 React for efficient UI rendering
-
- - React Router for seamless navigation
-
- - CSS Modules for modular and reusable styles
-
- - Yup for form validation
-
- - Tailwind CSS for flexible, utility-first design
-
- - Node.js and MongoDB for backend functionality
-
- - Email Integration for booking confirmations and feedback notifications
+> 🛠 Built with:
+> 
+- React for efficient UI rendering
+- React Router for seamless navigation
+- CSS Modules for modular and reusable styles
+- Yup for form validation
+- Tailwind CSS for flexible, utility-first design
+- Node.js and MongoDB for backend functionality
+- Email Integration for booking confirmations and feedback notifications
 
 ---
 
@@ -101,19 +96,19 @@ A modern and responsive site for a professional hairdresser, combining a sleek f
 
 ### 🧠 Currently Learning
 
-- Express.js & Backend API structure
-- Clean Architecture for Full Stack apps
-- Unit Testing & Integration Testing basics
-- GitHub Workflows & Deployment strategies
+- Express.js & Backend API Structure: I am deepening my knowledge of backend development to improve my full-stack capabilities.
+- Clean Architecture for Full Stack Apps: I’m focusing on building maintainable and scalable architectures for complex applications.
+- Unit Testing & Integration Testing Basics: I am learning how to write robust tests to ensure my applications run smoothly.
+- GitHub Workflows & Deployment Strategies: I’m aiming to automate deployments and improve my CI/CD practices
 
 ---
 
 ### 🎯 Goals for 2025
 
-- ✅ Build real-world full-stack project
-- 🚀 Get my first IT job
-- 🤝 Collaborate on open-source
-- 📚 Improve English communication skills
+- ✅ Build a real-world full-stack project with clean architecture and best practices
+- 🚀 Land my first IT job in a dynamic environment
+- 🤝 Collaborate on open-source projects to contribute to the community
+- 📚 Improve my English communication skills, especially in tech-related conversations
 
 ---
 
