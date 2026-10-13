@@ -1,10 +1,16 @@
 <h1 align="center">Hi, I'm Vasyl Kuzma 👋</h1>
 
 <p align="center">
-  💻 Junior Full Stack Developer | React • TypeScript • Node.js • Express • MongoDB • PostgreSQL
+  💻 Full Stack Developer | React • TypeScript • Node.js • Express • MongoDB • PostgreSQL
 </p>
 
 <p align="center">
+  <a href="https://kuzma-dev-com.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-c70039?style=flat&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://kuzma-dev-com.vercel.app/Vasyl_Kuzma_CV.pdf">
+    <img src="https://img.shields.io/badge/CV-PDF-555555?style=flat&logo=adobeacrobatreader&logoColor=white" alt="CV" />
+  </a>
   <a href="mailto:kuzmavasil.v@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
   </a>
@@ -14,24 +20,25 @@
   <a href="https://www.linkedin.com/in/vasylkuzma/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/kuzmavasil74">
-    <img src="https://img.shields.io/github/followers/kuzmavasil74?style=flat&label=GitHub&logo=github" alt="GitHub" />
-  </a>
 </p>
 
 ---
 
 ### 👨‍💻 About Me
 
-Hi, I'm Vasyl Kuzma, a Junior Full Stack Developer from Prague 🇨🇿. I build complete web applications — from responsive React frontends to REST APIs with authentication, databases, and deployment. My experience includes:
+I'm a Full Stack Developer in Prague 🇨🇿. I build complete web applications, from responsive React frontends to REST APIs with authentication, databases and deployment, and I keep them running for real users:
 
-- **Frontend:** React, TypeScript, React Router, CSS Modules, Tailwind, i18n (multi-language apps)
+- 🏗 **Part-time developer at [SANJO](https://sanjo.cz)** (construction and cleaning company, Czech Republic): I build their internal tools, BuildTrack and Tool Tracker.
+- 💇‍♀️ **Client project in production:** booking platform for the hair salon [TaisiyaStyle](https://taisiiastyle.cz).
+- 🎓 **Ph.D. in Physics** before switching to development; GoIT Fullstack course 2023–2024.
+
+**Looking for a full-time developer role** where I can keep shipping real products and grow in a team.
+
+- **Frontend:** React, TypeScript, React Router, Tailwind CSS, CSS Modules, i18n, PWA
 - **Backend:** Node.js, Express, REST API design, JWT authentication
 - **Databases:** MongoDB (Mongoose), PostgreSQL
-- **DevOps & Tools:** Docker, Git, GitHub Actions, Webpack, ESLint, AWS S3, deployment on Vercel, Railway & Render
-- **Integrations:** Telegram Bot API (webhooks), email notifications, form validation with Yup & React Hook Form
-
-I maintain a **real client project in production** and run my own live work tracker for construction crews, and I love learning by building. Currently looking for my first full-time role in IT to grow in a real-world environment.
+- **DevOps & Tools:** Docker Compose, Git, GitHub Actions, ESLint, Vercel, Railway, Render, AWS S3
+- **Integrations:** Telegram Bot API, web push, email notifications, PDF/CSV/Excel exports, QR codes
 
 ---
 
@@ -46,45 +53,53 @@ I maintain a **real client project in production** and run my own live work trac
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![JWT](https://img.shields.io/badge/-JWT-000000?style=flat-square&logo=jsonwebtokens)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwind-css)
-![CSS Modules](https://img.shields.io/badge/-CSS%20Modules-blue?style=flat-square)
-![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel)
-![Render](https://img.shields.io/badge/-Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 ![Railway](https://img.shields.io/badge/-Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
-![AWS S3](https://img.shields.io/badge/-AWS%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Render](https://img.shields.io/badge/-Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 
 ---
 
 ### 🚀 Featured Projects
 
-#### 💇‍♀️ [TaisiyaStyle – Salon Booking Platform](https://taisiiastyle.cz) *(real client project, in production)*
+#### 🏗 [BuildTrack: construction site daily tracker](https://buildtrack-frontend-ten.vercel.app) *(SANJO, in use)*
 
-A full-stack booking platform for a professional hair stylist, live and used by real customers:
+Daily work tracking for a construction company: who worked on which site, for how many hours, in which crew, and what everyone is owed.
 
-- **Online Booking System:** Clients register, log in (JWT authentication), and book appointments for specific services and time slots
-- **Telegram Bot Notifications:** The stylist instantly receives new booking notifications via a Telegram bot (webhook-based)
-- **Service Catalog with Filtering:** Organized service list with category filtering and pricing
-- **Multi-language Support (i18n):** Localized interface for a wider audience
-- **Email Integration:** Booking confirmations and feedback notifications
-- **Responsive Design:** Optimized for all devices
+- **Daily records:** one record per site and day, with per-worker start/end times or hours, rates and notes
+- **Crews & payroll:** crews with members and hourly rates, monthly payroll in UAH, EUR, PLN, CZK or USD, PDF and CSV export
+- **Receipts:** photos stored in AWS S3; QR codes for quick crew check-in
+- **PWA in 5 languages:** Ukrainian, English, Polish, Russian, Czech
+- **Architecture:** React SPA on Vercel proxies `/api` to an Express API on Railway, so the auth cookie stays first-party; PostgreSQL for users, sites and crews, MongoDB for records and receipts; tests, build and `npm audit` on GitHub Actions
 
-> 🛠 Built with: React, React Router, CSS Modules, Yup, Node.js, Express, MongoDB, JWT, Telegram Bot API
+> 🛠 Built with: React 19, Vite, Tailwind CSS 4, react-i18next, Node.js, Express, PostgreSQL, MongoDB, AWS S3, Docker Compose · [API repo](https://github.com/kuzmavasil74/buildtrack) · [frontend repo](https://github.com/kuzmavasil74/buildtrack-frontend)
 
-#### 🏗 [BuildTrack (Sanjo) – Construction Work Tracker](https://buildtrack-frontend-ten.vercel.app) *(live, my own project, in pilot)*
+#### 🧰 Tool Tracker: QR tool inventory *(SANJO, in use, private repository)*
 
-A full-stack app that replaces paper timesheets on construction sites: who worked where, how many hours, what everyone is owed, and the receipts for what was bought.
+Answers at any moment which tool exists, where it is and who has it, with the full history of every move.
 
-- **Daily records per worker:** start/end times or hours, rates and notes, with automatic lunch-break deduction; crews with QR check-in
-- **Payroll:** monthly pay per person in 5 currencies, with PDF and CSV exports
-- **Companies & roles:** owner and foreman roles enforced in the API, team invitations by link, invitation-only sign-up
-- **Receipts:** photos compressed in the browser, stored in a private AWS S3 bucket and opened through short-lived signed links
-- **GDPR:** privacy policy, self-service data export and account deletion
-- **Operations:** two databases (PostgreSQL + MongoDB) migrated on start, nightly encrypted backups to S3 with a tested restore, admin activity dashboard
-- **Quality:** unit tests and GitHub Actions CI in both repos, installable PWA in 5 languages
+- **QR issue and return:** the storekeeper scans the tool with a phone; every issue, return and handover goes into one event log
+- **Bookings** without overlaps, **signed handover PDFs**, **GPS locations on a map**
+- **Notifications** in a Telegram group and via web push; loss and "who has what" reports
+- **Exports** to CSV, Excel and PDF; roles (admin, storekeeper, viewer); soft delete and daily backups
+- **PWA in 3 languages:** Ukrainian, Czech, English
 
-> 🛠 Built with: React 19, Vite, Tailwind CSS, i18n, Node.js, Express, PostgreSQL, MongoDB, AWS S3, Docker · Deployed on Vercel + Railway · [backend repo](https://github.com/kuzmavasil74/buildtrack) · [frontend repo](https://github.com/kuzmavasil74/buildtrack-frontend)
+> 🛠 Built with: React, Node.js, Express, Leaflet / OpenStreetMap, Telegram Bot API, Web Push, Railway
+
+#### 💇‍♀️ [TaisiyaStyle: salon booking platform](https://taisiiastyle.cz) *(client project, in production)*
+
+A full-stack booking platform for a professional hair stylist, used by real customers:
+
+- **Online booking:** clients register, log in (JWT) and book services and time slots
+- **Telegram bot:** the stylist receives and manages bookings in Telegram
+- **Reminders:** a separate worker sends day and hour reminders and asks for a review after the visit
+- **Multi-language** interface and responsive design
+- **Tested:** unit and integration tests on an in-memory MongoDB replica set
+
+> 🛠 Built with: React, React Router, CSS Modules, Yup, Node.js, Express, MongoDB, JWT, Telegram Bot API, Railway
+
+More projects: **[portfolio](https://kuzma-dev-com.vercel.app/portfolio)**
 
 ---
 
@@ -107,18 +122,16 @@ A full-stack app that replaces paper timesheets on construction sites: who worke
 
 ### 🧠 Currently Learning
 
-- **Clean Architecture & Best Practices:** Structuring scalable full-stack applications
-- **Unit & Integration Testing:** Writing robust tests for backend and frontend
-- **CI/CD & GitHub Actions:** Automating checks and deployments (already running on BuildTrack)
-- **TypeScript on the Backend:** Bringing type safety to my Express APIs
+- **Clean Architecture & Best Practices:** structuring scalable full-stack applications
+- **Testing:** wider unit, integration and end-to-end coverage for backend and frontend
+- **TypeScript on the Backend:** bringing type safety to my Express APIs
 
 ---
 
 ### 🎯 Goals for 2026
 
-- 🚀 Land my first full-time developer job
-- ✅ Keep maintaining and improving my production client project
-- 🧪 Add automated tests and CI/CD to my projects
+- 🚀 Land a full-time developer job
+- ✅ Keep maintaining and improving the apps that real people use every day
 - 🤝 Contribute to open-source projects
 - 📚 Keep improving my English & Czech for professional communication
 
