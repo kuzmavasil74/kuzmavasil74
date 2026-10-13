@@ -31,7 +31,7 @@ Hi, I'm Vasyl Kuzma, a Junior Full Stack Developer from Prague 🇨🇿. I build
 - **DevOps & Tools:** Docker, Git, GitHub Actions, Webpack, ESLint, AWS S3, deployment on Vercel, Railway & Render
 - **Integrations:** Telegram Bot API (webhooks), email notifications, form validation with Yup & React Hook Form
 
-I maintain **two apps in production** (a salon booking platform for a client and a work tracker used by construction crews) and love learning by building. Currently looking for my first full-time role in IT to grow in a real-world environment.
+I maintain a **real client project in production** and run my own live work tracker for construction crews, and I love learning by building. Currently looking for my first full-time role in IT to grow in a real-world environment.
 
 ---
 
@@ -72,7 +72,7 @@ A full-stack booking platform for a professional hair stylist, live and used by 
 
 > 🛠 Built with: React, React Router, CSS Modules, Yup, Node.js, Express, MongoDB, JWT, Telegram Bot API
 
-#### 🏗 [BuildTrack (Sanjo) – Construction Work Tracker](https://buildtrack-frontend-ten.vercel.app) *(in use by construction crews)*
+#### 🏗 [BuildTrack (Sanjo) – Construction Work Tracker](https://buildtrack-frontend-ten.vercel.app) *(live, my own project, in pilot)*
 
 A full-stack app that replaces paper timesheets on construction sites: who worked where, how many hours, what everyone is owed, and the receipts for what was bought.
 
