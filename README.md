@@ -28,10 +28,10 @@ Hi, I'm Vasyl Kuzma, a Junior Full Stack Developer from Prague 🇨🇿. I build
 - **Frontend:** React, TypeScript, React Router, CSS Modules, Tailwind, i18n (multi-language apps)
 - **Backend:** Node.js, Express, REST API design, JWT authentication
 - **Databases:** MongoDB (Mongoose), PostgreSQL
-- **DevOps & Tools:** Docker, Git, Webpack, ESLint, deployment on Vercel & Render
+- **DevOps & Tools:** Docker, Git, GitHub Actions, Webpack, ESLint, AWS S3, deployment on Vercel, Railway & Render
 - **Integrations:** Telegram Bot API (webhooks), email notifications, form validation with Yup & React Hook Form
 
-I maintain a **real client project in production** and love learning by building. Currently looking for my first full-time role in IT to grow in a real-world environment.
+I maintain **two apps in production** (a salon booking platform for a client and a work tracker used by construction crews) and love learning by building. Currently looking for my first full-time role in IT to grow in a real-world environment.
 
 ---
 
@@ -51,6 +51,9 @@ I maintain a **real client project in production** and love learning by building
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel)
 ![Render](https://img.shields.io/badge/-Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+![Railway](https://img.shields.io/badge/-Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![AWS S3](https://img.shields.io/badge/-AWS%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
@@ -69,16 +72,19 @@ A full-stack booking platform for a professional hair stylist, live and used by 
 
 > 🛠 Built with: React, React Router, CSS Modules, Yup, Node.js, Express, MongoDB, JWT, Telegram Bot API
 
-#### 🏗 [BuildTrack – Construction Site Daily Tracker](https://github.com/kuzmavasil74/buildtrack)
+#### 🏗 [BuildTrack (Sanjo) – Construction Work Tracker](https://buildtrack-frontend-ten.vercel.app) *(in use by construction crews)*
 
-A full-stack app for daily tracking of construction site activity — workers, materials, and progress reports:
+A full-stack app that replaces paper timesheets on construction sites: who worked where, how many hours, what everyone is owed, and the receipts for what was bought.
 
-- **Backend:** Node.js + Express REST API with both **PostgreSQL** (relational data) and **MongoDB** (documents)
-- **Dockerized:** Full local development environment with Docker Compose
-- **Frontend:** React dashboard with forms for daily records ([frontend repo](https://github.com/kuzmavasil74/buildtrack-frontend))
-- **Deployment:** Backend on Render, frontend on Vercel
+- **Daily records per worker:** start/end times or hours, rates and notes, with automatic lunch-break deduction; crews with QR check-in
+- **Payroll:** monthly pay per person in 5 currencies, with PDF and CSV exports
+- **Companies & roles:** owner and foreman roles enforced in the API, team invitations by link, invitation-only sign-up
+- **Receipts:** photos compressed in the browser, stored in a private AWS S3 bucket and opened through short-lived signed links
+- **GDPR:** privacy policy, self-service data export and account deletion
+- **Operations:** two databases (PostgreSQL + MongoDB) migrated on start, nightly encrypted backups to S3 with a tested restore, admin activity dashboard
+- **Quality:** unit tests and GitHub Actions CI in both repos, installable PWA in 5 languages
 
-> 🛠 Built with: Node.js, Express, PostgreSQL, MongoDB, Docker, React
+> 🛠 Built with: React 19, Vite, Tailwind CSS, i18n, Node.js, Express, PostgreSQL, MongoDB, AWS S3, Docker · Deployed on Vercel + Railway · [backend repo](https://github.com/kuzmavasil74/buildtrack) · [frontend repo](https://github.com/kuzmavasil74/buildtrack-frontend)
 
 ---
 
@@ -103,7 +109,7 @@ A full-stack app for daily tracking of construction site activity — workers, m
 
 - **Clean Architecture & Best Practices:** Structuring scalable full-stack applications
 - **Unit & Integration Testing:** Writing robust tests for backend and frontend
-- **CI/CD & GitHub Actions:** Automating deployments and workflows
+- **CI/CD & GitHub Actions:** Automating checks and deployments (already running on BuildTrack)
 - **TypeScript on the Backend:** Bringing type safety to my Express APIs
 
 ---
